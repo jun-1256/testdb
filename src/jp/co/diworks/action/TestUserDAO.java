@@ -160,7 +160,7 @@ public void delete(String name) {
 		ps.setString(1, name);
 		int i=ps.executeUpdate();
 		if (i>0) {
-			System.out.println(i + "件削除されました");
+			System.out.println(i + "件削除されました。");
 		}
 	} catch (SQLException e ) {
 		e.printStackTrace();
